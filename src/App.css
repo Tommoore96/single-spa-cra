@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 } */
+
+.single-spa-cra{
+  background-color: #e0e0e0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
