@@ -13,7 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --port 8080",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 8080",
     "build": "webpack --mode=production",
     "test": "cross-env BABEL_ENV=test jest",
     "eject": "react-scripts eject",

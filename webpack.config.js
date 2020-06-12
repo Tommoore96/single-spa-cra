@@ -12,9 +12,9 @@ module.exports = (webpackConfigEnv) => {
   return webpackMerge.smart(defaultConfig, {
     devServer: {
       disableHostCheck: true,
-      // headers: {
-      //   "Access-Control-Allow-Origin": "*",
-      // },
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
     },
     module: {
       rules: [

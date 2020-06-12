@@ -8,7 +8,7 @@ function App() {
       This is active across all routes. Imagine it as the Header and MenuBar of
       Business Aviation
       <br />
-      <a href="http://localhost:3000/business-aviation">
+      <a href="http://35.246.39.62/business-aviation">
         Activate "business-aviation"
       </a>
       <hr />
